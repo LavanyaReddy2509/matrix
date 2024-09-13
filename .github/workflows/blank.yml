@@ -22,7 +22,7 @@ jobs:
         names: ['test1' ,'test2']
     # condition     
     #if: ${{ github.ref == 'refs/heads/main' }}  
-    if: github.repository == 'Shubham-Bawa/matrix-demo' 
+    if: github.repository == 'LavanyaReddy2509/matrix'   #https://github.com/LavanyaReddy2509/matrix.git
     runs-on: ubuntu-latest
     env:
       Day: monday
